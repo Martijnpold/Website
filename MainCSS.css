@@ -1,6 +1,6 @@
 .img-shadow {
     border-radius: 50%;
-    box-shadow: 0 0 16px rgba(162, 57, 202, .8);
+    box-shadow: 0 0 16px rgba(162, 57, 202, 1);
 }
 .img-shadow-inset {
   border-radius: 50%;
