@@ -1,7 +1,15 @@
 .img-shadow {
     border-radius: 50%;
-    box-shadow: 0 0 16px rgba(162, 57, 202, .8);
+    box-shadow: 0 0 16px rgba(255, 255, 255, .8);
 }
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1); 
+}
+
 .img-shadow-inset {
   border-radius: 50%;
   border:2px solid #000000;
