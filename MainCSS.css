@@ -84,8 +84,3 @@ ul.hor-menu {
   padding: 14px 16px;
   text-decoration: none;
 }
-.overflow {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: auto;
-}
