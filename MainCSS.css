@@ -87,5 +87,5 @@ ul.hor-menu {
 .overflow {
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden;
+  overflow: auto;
 }
