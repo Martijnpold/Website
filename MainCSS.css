@@ -1,3 +1,26 @@
+body {
+  padding:0;
+  margin:0;
+  font-family: runescape;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: runescape;
+  src: local("runescape"),
+       url(runescape.otf);
+       src: url('runescape.eot'); /* IE9 Compat Modes */
+       src: url('runescape.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('runescape.woff2') format('woff2'), /* Super Modern Browsers */
+       url('runescape.woff') format('woff'), /* Pretty Modern Browsers */
+       url('runescape.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('runescape.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+div {
+    font-family: runescape;
+}
+
 /*Images*/
 .img-shadow {
     border-radius: 50%;
@@ -13,13 +36,11 @@
 /*Text*/
 .inset-main-text {
   color: rgb(199, 104, 212);
-  font-size: 40px;
-  text-shadow: rgba(255, 255, 255, 0.2) 3px 2px 3px;
+  font-size: 45px;
 }
 .inset-sub-text {
   color: rgb(199, 104, 212);
-  font-size: 30px;
-  text-shadow: rgba(255, 255, 255, 0.2) 3px 2px 3px;
+  font-size: 40px;
 }
 .menu-text {
   background-color: #FFFFFF;
@@ -30,6 +51,15 @@
   -moz-background-clip: text;
   background-clip: text;
 }
+.text-glow:hover {
+  text-shadow: 0 0 8px rgba(153, 0, 0, .8);
+}
+.wrapword{
+  word-wrap: break-word;
+  min-width:50px;
+  max-width:700px;
+}
+
 
 
 /*Animations*/
@@ -43,13 +73,15 @@
 }
 .hor-menu a:hover {
     background-color: #A239CA;
+    text-shadow: 0px 2px 3px rgba(162,57,202,0.5);
     transition-duration: 0.5s;
 }
 
 
 /*Colors*/
 .active {
-  background-color: #4717F6;
+  /* #4717F6 */
+  background-color: #7753F9;
   color: #4717F6;
 }
 .inactive {
@@ -66,10 +98,14 @@
   transform: translateX(-50%) translateY(-50%);
 }
 ul.hor-menu {
+  background-color: #06030F;
+  z-index: 1000;
     position: fixed;
-    top: 0;
+    color: #06030F;
+    background-color: #06030F;
     list-style-type: none;
-    margin: 0;
+    top: 0;
+    margin: auto;
     padding: 0;
     border-bottom: 1px solid #555;
     border-right: 1px solid #555;
