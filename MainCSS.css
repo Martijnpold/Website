@@ -3,6 +3,7 @@ body {
   margin:0;
   font-family: runescape;
   font-weight: bold;
+  overflow-x: hidden;
 }
 
 @font-face {
