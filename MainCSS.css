@@ -12,7 +12,6 @@ body {
        url(runescape.otf);
        src: url('fonts/runescape.eot'); /* IE9 Compat Modes */
        src: url('fonts/runescape.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/runescape.woff2') format('woff2'), /* Super Modern Browsers */
        url('fonts/runescape.woff') format('woff'), /* Pretty Modern Browsers */
        url('fonts/runescape.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('fonts/runescape.svg#svgFontName') format('svg'); /* Legacy iOS */
